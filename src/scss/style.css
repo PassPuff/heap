@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.vh {
+  height: 70vh;
+  width: 100vw;
+  background-color: rgba(255, 207, 16, 0.6588235294);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.vh h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+.heap {
+  padding: 70px 0 0;
+}
+.heap__wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 65px 30px;
+  height: 80vh;
+}
+.heap__title {
+  font-size: 74px;
+  margin: 0;
+  padding: 0;
+  grid-column: 12 span;
+}
+.heap__title span {
+  color: #e63c32;
+}
+.heap__img {
+  grid-column: span 6;
+}
+.heap__img img {
+  border-radius: 20px;
+  box-shadow: 0 0 14px 0 rgba(66, 62, 62, 0.12);
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  object-fit: cover;
+}
+.heap__list {
+  grid-column: span 6;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.heap__item {
+  padding: 25px 30px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 14px 0 rgba(66, 62, 62, 0.12);
+  background: #f8f8f8;
+}
+.heap__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.heap__item header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.heap__text {
+  font-size: 18px;
+  line-height: 1.7;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.heap svg {
+  flex: none;
+}
+.heap svg *:not(last-child) {
+  fill: #e63c32;
+}
+
+/*# sourceMappingURL=style.css.map */
